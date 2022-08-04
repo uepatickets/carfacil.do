@@ -114,77 +114,44 @@
     <main class="page-wrapper">
       <!-- Navbar-->
       <header class="navbar navbar-expand-lg navbar-dark fixed-top" data-scroll-header>
-        <div class="container"><a class="navbar-brand me-3 me-xl-4" href="car-finder-home.html"><img class="d-block" src="img/logo/logo-light.svg" width="116" alt="Finder"></a>
-          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="dropdown d-none d-lg-block order-lg-3 my-n2 me-3"><a class="d-block py-2" href="car-finder-account-info.html"><img class="rounded-circle" src="img/avatars/02.jpg" width="40" alt="Robert Fox"></a>
-            <div class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-              <div class="d-flex align-items-start border-bottom border-light px-3 py-1 mb-2" style="width: 16rem;"><img class="rounded-circle" src="img/avatars/01.jpg" width="48" alt="Robert Fox">
-                <div class="ps-2">
-                  <h6 class="fs-base text-light mb-0">Robert Fox</h6><span class="star-rating star-rating-sm"><i class="star-rating-icon fi-star-filled active"></i><i class="star-rating-icon fi-star-filled active"></i><i class="star-rating-icon fi-star-filled active"></i><i class="star-rating-icon fi-star-filled active"></i><i class="star-rating-icon fi-star-filled active"></i></span>
-                  <div class="fs-xs py-2">(302) 555-0107<br>robert_fox@email.com</div>
-                </div>
-              </div><a class="dropdown-item" href="car-finder-account-info.html"><i class="fi-user me-2"></i>Personal Info</a><a class="dropdown-item" href="car-finder-account-security.html"><i class="fi-lock me-2"></i>Password &amp; Security</a><a class="dropdown-item" href="car-finder-account-cars.html"><i class="fi-car me-2"></i>My Cars</a><a class="dropdown-item" href="car-finder-account-wishlist.html"><i class="fi-heart me-2"></i>Wishlist<span class="badge bg-faded-light ms-2">4</span></a><a class="dropdown-item" href="car-finder-account-reviews.html"><i class="fi-star me-2"></i>Reviews</a><a class="dropdown-item" href="car-finder-account-notifications.html"><i class="fi-bell me-2"></i>Notifications</a>
-              <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Help</a><a class="dropdown-item" href="#">Sign Out</a>
-            </div>
-          </div><a class="btn btn-primary btn-sm ms-2 order-lg-3" href="car-finder-sell-car.html"><i class="fi-plus me-2"></i>Sell car</a>
+        <div class="container"><a class="navbar-brand me-3 me-xl-4" href="/"><img class="d-block" src="img/logo/logo-light.svg" width="116" alt="Finder"></a>
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="btn btn-link btn-light btn-sm d-none d-lg-block order-lg-3" href="#signin-modal" data-bs-toggle="modal"><i class="fi-user me-2"></i>Iniciar sesión</a><a class="btn btn-primary btn-sm ms-2 order-lg-3" href="sell-car.html"><i class="fi-plus me-2"></i>Rentar vehículo</a>
           <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
             <ul class="navbar-nav navbar-nav-scroll" style="max-height: 35rem;">
-              <!-- Demos switcher-->
-              <li class="nav-item dropdown py-2 me-lg-2"><a class="nav-link dropdown-toggle align-items-center border-end-lg border-light py-1 pe-lg-4" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"><i class="fi-layers me-2"></i>Demos</a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="real-estate-home.html"><i class="fi-building fs-base me-2"></i>Real Estate Demo</a></li>
-                  <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="car-finder-home.html"><i class="fi-car fs-base me-2"></i>Car Finder Demo</a></li>
-                  <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="job-board-home-v1.html"><i class="fi-briefcase fs-base me-2"></i>Job Board Demo</a></li>
-                  <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="city-guide-home-v1.html"><i class="fi-map-pin fs-base me-2"></i>City Guide Demo</a></li>
-                  <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="index.html"><i class="fi-home fs-base me-2"></i>Main Page</a></li>
-                  <li><a class="dropdown-item" href="components/typography.html"><i class="fi-list fs-base me-2"></i>Components</a></li>
-                  <li><a class="dropdown-item" href="docs/dev-setup.html"><i class="fi-file fs-base me-2"></i>Documentation</a></li>
-                </ul>
-              </li>
+
               <!-- Menu items-->
-              <li class="nav-item"><a class="nav-link" href="car-finder-home.html">Home</a></li>
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Catalog</a>
+              <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Catálogo</a>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="car-finder-catalog-list.html">List View</a></li>
-                  <li><a class="dropdown-item" href="car-finder-catalog-grid.html">Grid View</a></li>
-                  <li><a class="dropdown-item" href="car-finder-single.html">Car Single Page</a></li>
+                  <li><a class="dropdown-item" href="catalog-list.html">List View</a></li>
+                  <li><a class="dropdown-item" href="catalog-grid.html">Grid View</a></li>
+                  <li><a class="dropdown-item" href="single.html">Car Single Page</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cuenta</a>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="car-finder-account-info.html">Personal Info</a></li>
-                  <li><a class="dropdown-item" href="car-finder-account-security.html">Password &amp; Security</a></li>
-                  <li><a class="dropdown-item" href="car-finder-account-cars.html">My Cars</a></li>
-                  <li><a class="dropdown-item" href="car-finder-account-wishlist.html">Wishlist</a></li>
-                  <li><a class="dropdown-item" href="car-finder-account-reviews.html">Reviews</a></li>
-                  <li><a class="dropdown-item" href="car-finder-account-notifications.html">Notifications</a></li>
+                  <li><a class="dropdown-item" href="account-info.html">Personal Info</a></li>
+                  <li><a class="dropdown-item" href="account-security.html">Password &amp; Security</a></li>
+                  <li><a class="dropdown-item" href="account-cars.html">My Cars</a></li>
+                  <li><a class="dropdown-item" href="account-wishlist.html">Wishlist</a></li>
+                  <li><a class="dropdown-item" href="account-reviews.html">Reviews</a></li>
+                  <li><a class="dropdown-item" href="account-notifications.html">Notifications</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Vendor</a>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Negocio</a>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="car-finder-sell-car.html">Sell Car</a></li>
-                  <li><a class="dropdown-item" href="car-finder-promotion.html">Ad Promotion Page</a></li>
-                  <li><a class="dropdown-item" href="car-finder-vendor.html">Vendor Page</a></li>
+                  <li><a class="dropdown-item" href="sell-car.html">Rentar vehículo</a></li>
+                  <li><a class="dropdown-item" href="promotion.html">Ad Promotion Page</a></li>
+                  <li><a class="dropdown-item" href="vendor.html">Vendor Page</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="car-finder-blog.html">Blog Grid</a></li>
-                  <li><a class="dropdown-item" href="car-finder-blog-single.html">Single Post</a></li>
+                  <li><a class="dropdown-item" href="blog.html">Blog Grid</a></li>
+                  <li><a class="dropdown-item" href="blog-single.html">Single Post</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown d-lg-none"><a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img class="rounded-circle me-2" src="img/avatars/02.jpg" width="30" alt="Robert Fox">Robert Fox</a>
-                <div class="dropdown-menu dropdown-menu-dark">
-                  <div class="ps-3"><span class="star-rating star-rating-sm"><i class="star-rating-icon fi-star-filled active"></i><i class="star-rating-icon fi-star-filled active"></i><i class="star-rating-icon fi-star-filled active"></i><i class="star-rating-icon fi-star-filled active"></i><i class="star-rating-icon fi-star-filled active"></i></span>
-                    <div class="fs-xs py-2">(302) 555-0107<br>robert_fox@email.com</div>
-                  </div><a class="dropdown-item" href="car-finder-account-info.html"><i class="fi-user me-2"></i>Personal Info</a><a class="dropdown-item" href="car-finder-account-security.html"><i class="fi-lock me-2"></i>Password &amp; Security</a><a class="dropdown-item" href="car-finder-account-cars.html"><i class="fi-car me-2"></i>My Cars</a><a class="dropdown-item" href="car-finder-account-wishlist.html"><i class="fi-heart me-2"></i>Wishlist<span class="badge bg-faded-light ms-2">4</span></a><a class="dropdown-item" href="car-finder-account-reviews.html"><i class="fi-star me-2"></i>Reviews</a><a class="dropdown-item" href="car-finder-account-notifications.html"><i class="fi-bell me-2"></i>Notifications</a>
-                  <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Help</a><a class="dropdown-item" href="#">Sign Out</a>
-                </div>
-              </li>
+              <li class="nav-item d-lg-none"><a class="nav-link" href="#signin-modal" data-bs-toggle="modal"><i class="fi-user me-2"></i>Iniciar sesión</a></li>
             </ul>
           </div>
         </div>
